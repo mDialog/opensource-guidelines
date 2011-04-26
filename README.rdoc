@@ -40,7 +40,7 @@ The Readme for any project we release also needs to contain a line toward the bo
 
 Each project *must* contain a listing of all the people that have contributed to the project, as well as a line that gives mDialog credit for the project. eg (in RDOC format):
 
-  Contributors:: {Aaron Gough}[mailto:aaron@aarongough.com], {Chris Dinn}[mailto:cdinn@mdialog.com], {Sana Tapal}[mailto:stapal@mdialog.com], {Chirayu Patel}[mailto:cpatel@mdialog.com]
+  Contributors:: {Contributor Uno}[mailto:contrib1@company.com], {Contributor Dos}[mailto:contrib2@company.com]
   
   {An mDialog Project.}[http://mdialog.com/]
 
@@ -48,15 +48,15 @@ Each project *must* contain a listing of all the people that have contributed to
 
 Before any project or update is released the code must go through a minimal internal peer review process:
 
-* If the code is for a new project, the project must be approved by Peentoo and the development team.
+* If the code is for a new project, the project must be approved by management and the development team.
 * At least one other person on the development team must read over and sign-off on the code.
-* A note about the new code should be put on Campfire so the rest of the team gets a second chance to review or veto the code.
+* A note about the new code should be sent out after its release via Campfire or group email so the rest of the team gets a second chance to review or veto the code.
 
 === Release checklist
 
 ==== If this is a new project:
 
-* Has it been approved by Peentoo and by the development team?
+* Has it been approved by management and by the development team?
 * Does it have the correct license text?
 * Does it have a meaningful README?
 * Has the code been through internal peer review?
@@ -79,3 +79,11 @@ Before any project or update is released the code must go through a minimal inte
 * Has the code been vetted to make sure it contains no GPL'd code?
 * Has the README been updated to reflect the code changes?
 * Has the project version number been updated to reflect the change?
+
+=== License & Contributors
+
+This project is released under the Apache License v2, for more details see the 'LICENSE' file.
+
+Contributors:: {Aaron Gough}[mailto:aaron@aarongough.com]
+
+{An mDialog Project.}[http://mdialog.com/]
