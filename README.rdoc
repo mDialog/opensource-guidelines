@@ -1,0 +1,54 @@
+== mDialog Open-Source Project Guidelines
+
+Because any code we release reflects on the company as a whole, and on each of us as individuals, we need to have a set of guidelines that we all stand behind so that we are assured we are all happy with the code that gets released.
+
+This guide is broken up into several parts:
+
+* Licensing
+* Attribution
+* Internal peer review
+* Release checklist
+
+=== Licensing
+
+Every project we release should contain a copy of our license text from the very beginning. The boiler-plate license is stored in this repository under the file-name 'LICENSE'. The Readme for any project we release also needs to contain a line toward the bottom of the file quickly listing what license the project is released under.
+
+=== Attribution
+
+Each project *must* contain a listing of all the people that have contributed to the project, as well as a line that gives mDialog credit for the project.
+
+=== Internal peer review
+
+Before any project or update is released the code must go through a minimal internal peer review process:
+
+* If the code is for a new project, the project must be approved by Peentoo and the development team.
+* At least one other person on the development team must read over and sign-off on the code.
+* A note about the new code should be put on Campfire so the rest of the team gets a second chance to review or veto the code.
+
+=== Release checklist
+
+==== If this is a new project:
+
+* Has it been approved by Peentoo and by the development team?
+* Does it have the correct license text?
+* Does it have a meaningful README?
+* Has the code been through internal peer review?
+* Does the project structure meet best practices for projects of this type?
+* Has the release of the project been OK'd by any related third-party vendors?
+* Does the project list all its contributors?
+* Does the project disclose any third-party open-source code that it contains?
+* Has the project been vetted to make sure it does not contain any third-party GPL code?
+* Has the code been tested, does it have automated tests associated with it?
+* Is the code something we are proud to release?
+* Does the code reflect our values as a team?
+
+==== If this is an update to a previously released project:
+
+* Has the code been through internal peer review?
+* Has the code been tested, does it have automated tests associated with it?
+* Is the code something we are proud to release?
+* Does the code reflect our values as a team?
+* Has the license text been updated to list new contributors, and disclose any third-party open-source content?
+* Has the code been vetted to make sure it contains no GPL'd code?
+* Has the README been updated to reflect the code changes?
+* Has the project version number been updated to reflect the change?
