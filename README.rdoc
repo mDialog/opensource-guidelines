@@ -1,4 +1,4 @@
-== mDialog Open-Source Project Guidelines
+= mDialog Open-Source Project Guidelines
 
 Because any code we release reflects on the company as a whole, and on each of us as individuals, we need to have a set of guidelines that we all stand behind so that we are assured we are all happy with the code that gets released.
 
@@ -11,11 +11,38 @@ This guide is broken up into several parts:
 
 === Licensing
 
-Every project we release should contain a copy of our license text from the very beginning. The boiler-plate license is stored in this repository under the file-name 'LICENSE'. The Readme for any project we release also needs to contain a line toward the bottom of the file quickly listing what license the project is released under.
+Every project we release should contain a copy of our license text from the very beginning. The license should be in the root directory of each project, in a file called 'LICENSE'. The license we use is the Apache License v2:
+
+  Copyright [yyyy] mDialog Corp (http://mdialog.com/)
+  
+  Copyright [yyyy] [contributor 1]
+  Copyright [yyyy] [contributor 2]
+  
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+  
+      http://www.apache.org/licenses/LICENSE-2.0
+  
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+  
+Make sure you update the copyright notices, there should be one copyright notice for each contributor. Ideally each contributor's email address would be listed along with their name.
+
+The Readme for any project we release also needs to contain a line toward the bottom of the file quickly listing what license the project is released under:
+
+  This project is released under the Apache License v2, for more details see the 'LICENSE' file.
 
 === Attribution
 
-Each project *must* contain a listing of all the people that have contributed to the project, as well as a line that gives mDialog credit for the project.
+Each project *must* contain a listing of all the people that have contributed to the project, as well as a line that gives mDialog credit for the project. eg (in RDOC format):
+
+  Contributors:: {Aaron Gough}[mailto:aaron@aarongough.com], {Chris Dinn}[mailto:cdinn@mdialog.com], {Sana Tapal}[mailto:stapal@mdialog.com], {Chirayu Patel}[mailto:cpatel@mdialog.com]
+  
+  {An mDialog Project.}[http://mdialog.com/]
 
 === Internal peer review
 
