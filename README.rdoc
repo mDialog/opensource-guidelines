@@ -75,7 +75,8 @@ Before any project or update is released the code must go through a minimal inte
 * Has the code been tested, does it have automated tests associated with it?
 * Is the code something we are proud to release?
 * Does the code reflect our values as a team?
-* Has the license text been updated to list new contributors, and disclose any third-party open-source content?
+* Has the license text been updated to list new contributors?
+* Does the project disclose any third-party open-source code that it contains?
 * Has the code been vetted to make sure it contains no GPL'd code?
 * Has the README been updated to reflect the code changes?
 * Has the project version number been updated to reflect the change?
